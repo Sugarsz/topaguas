@@ -4,6 +4,8 @@ interface IItemStatusProps {
     status: string;
 }
 
+
+
 export const Container = styled.div`
     width: 1250px;
     height: 860px;

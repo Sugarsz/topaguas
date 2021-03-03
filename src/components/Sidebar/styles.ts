@@ -33,7 +33,7 @@ export const  LogoImg = styled.img`
     width: 33px;
     height: 33px; 
     position: absolute; 
-    z-index: 999;
+    z-index: 13;
 `;
 
 
