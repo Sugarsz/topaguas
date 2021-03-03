@@ -8,4 +8,5 @@ export const Grid = styled.div`
     'SB CT';
 
     height: 100vh;
+    overflow: hidden;
 `;

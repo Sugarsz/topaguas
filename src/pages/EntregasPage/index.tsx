@@ -5,14 +5,14 @@ import Content from '../../components/Content';
 import EntregasChart from '../../components/EntregasChart';
 import EntregasList from '../../components/EntregasList';
 
-const Dashboard: React.FC = () => {
+const EntregasPage: React.FC = () => {
     return (
         <Container>
             <Content>
-                <h2> DASHBOARD </h2>
+                <EntregasList />
+                <EntregasChart />
             </Content>
         </Container>
-    ) 
+    )
 }
-
-export default Dashboard;
+export default EntregasPage;

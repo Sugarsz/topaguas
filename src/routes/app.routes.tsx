@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Layout from '../components/Layout';
 import Dashboard from '../pages/ClientsDashboard';
+import EntregasPage from '../pages/EntregasPage';
 
 const AppRoute: React.FC = () => {
     return (
@@ -11,8 +12,7 @@ const AppRoute: React.FC = () => {
                 <Route path="/clientes" exact component={Dashboard}>
                     
                 </Route>
-                <Route path="/entregas">
-                    <h2> Entregas kkk </h2>
+                <Route path="/entregas" exact component={EntregasPage}> 
                 </Route>
                 <Route path="/naoseiainda">
                     <h2> nao sei </h2>
